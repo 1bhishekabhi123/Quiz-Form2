@@ -1,0 +1,43 @@
+.quiz{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.quiz ul li{
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.quiz ul li:hover{
+    background-color: rgb(122, 96, 174);
+    color: rgb(255, 0, 149);
+}
+.quiz button{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: aqua;
+}
+.quiz button:hover{
+    background-color: rgb(147, 47, 181);
+    color: rgb(97, 30, 69);
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
